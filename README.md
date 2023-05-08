@@ -1,0 +1,7 @@
+Download Link: https://assignmentchef.com/product/solved-solved-introduction-to-procedural-programming-lab-3
+<br>
+Problem 1Write a program to generate random number between 10 and 20. Hint:srand(time(NULL)); //This will set our seed for the programrand() % 8 will generate random numbers between 0 and 8 (0 : 7)rand() % 3 + 8 will generate random numbers between 8 and 10 (8 : 10)rand() % ((max +1) – min) + min will generate random number between min and max (min : max)
+
+Problem 2Write a program that prompts a user for an integer value in the range 0 to 32,767 and then prints the digits of thenumbers on a line with three spaces between the digits. The first line is to start with the leftmost digit and print allfive digits; the second line is to start with the second digit from the left and print four digits, and so forth. Forexample, if the user enters 1234, your program should print0 1 2 3 41 2 3 42 3 43 44
+
+Problem 3Read a float number from a file and output it with 2 digits after the decimal point. The number should have at least 6digits BEFORE the decimal point. Extract all digits until a decimal point is found then store the position. Then, printall even numbers in the order they appear up until the decimal point. Then starting next to the decimal print all oddnumbers in the reverse of the order in which they appear.Example: 12345678.99Even digits printed in order – 2 4 6 8Odd digits printed in reverse order – 7 5 3 1
